@@ -1,0 +1,64 @@
+
+:root {
+    --fondo: #12080d;
+    --texto: #eadfcb;
+    --acento: #ef5a6f;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 1.6;
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+    color: var(--acento);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destacado {
+    font-size: 20px;
+    color: var(--texto);
+    padding: 20px;
+    border: 2px solid var(--acento);
+    margin: 30px;
+}
+
+.secciones {
+    display: flex;
+    gap: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--acento);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--texto);
+}
+
+@media (max-width: 600px) {
+    .secciones {
+        flex-direction: column;
+    }
+}
