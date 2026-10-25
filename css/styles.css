@@ -60,6 +60,12 @@ nav a:hover {
     display: none;
 }
 
+#lista-proyectos article{
+    border:2px solid var(--acento);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 600px) {
     .secciones {
         flex-direction: column;
