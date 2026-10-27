@@ -16,6 +16,18 @@ const proyectos = [
         titulo: "Mi primera página web",
         descripcion: "Este portfolio, hecho con HTML, CSS y JavaScript.",
         enlace: "proyectos/proyecto-1.html"
+    },
+
+    {
+        titulo: "Controles on la camara",
+        descripcion: "Un poryecto que se basaba en poder controlar el ordenador con geston con la camara.",
+        enlace: "proyectos/proyecto-1.html"
+    },
+
+    {
+        titulo: "R.O.C.K.Y",
+        descripcion: "Una IA en local parecida a JARVIS",
+        enlace: "proyectos/proyecto-1.html"
     }
 ];
 

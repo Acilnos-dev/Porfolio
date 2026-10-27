@@ -11,8 +11,7 @@ body {
     color: var(--texto);
 }
 
-h1,
-h2 {
+h1,h2 {
     line-height: 1.2;
     font-family: "Space Grotesk", sans-serif;
 }
@@ -46,6 +45,9 @@ nav ul {
     gap: 20px;
 }
 
+a {
+    color: var(--acento);
+}
 nav a {
     text-decoration: none;
     color: var(--acento);
@@ -60,10 +62,15 @@ nav a:hover {
     display: none;
 }
 
+#lista-proyectos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 #lista-proyectos article{
     border:2px solid var(--acento);
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
