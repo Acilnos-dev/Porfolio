@@ -16,11 +16,6 @@ const proyectos = [
         titulo: "Mi primera página web",
         descripcion: "Este portfolio, hecho con HTML, CSS y JavaScript.",
         enlace: "proyectos/proyecto-1.html"
-    },
-    {
-        titulo: "Proyecto de prueba",
-        descripcion: "Un proyecto de ejemplo para comprobar que se generan varias tarjetas.",
-        enlace: "proyectos/proyecto-1.html"
     }
 ];
 
