@@ -13,21 +13,21 @@ boton.addEventListener("click", function () {
 
 const proyectos = [
     {
-        titulo: "Mi primera página web",
-        descripcion: "Este portfolio, hecho con HTML, CSS y JavaScript.",
+        titulo: "Proyecto 1",
+        descripcion: "Próximamente.",
         enlace: "proyectos/proyecto-1.html"
     },
 
     {
-        titulo: "Controles on la camara",
-        descripcion: "Un poryecto que se basaba en poder controlar el ordenador con geston con la camara.",
-        enlace: "proyectos/proyecto-1.html"
+        titulo: "Proyecto 2",
+        descripcion: "Próximamente.",
+        enlace: "proyectos/proyecto-2.html"
     },
 
     {
-        titulo: "R.O.C.K.Y",
-        descripcion: "Una IA en local parecida a JARVIS",
-        enlace: "proyectos/proyecto-1.html"
+        titulo: "Proyecto 3",
+        descripcion: "Próximamente.",
+        enlace: "proyectos/proyecto-3.html"
     }
 ];
 
