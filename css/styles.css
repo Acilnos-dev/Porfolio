@@ -11,7 +11,8 @@ body {
     color: var(--texto);
 }
 
-h1,h2 {
+h1,
+h2 {
     line-height: 1.2;
     font-family: "Space Grotesk", sans-serif;
 }
@@ -48,6 +49,7 @@ nav ul {
 a {
     color: var(--acento);
 }
+
 nav a {
     text-decoration: none;
     color: var(--acento);
@@ -68,9 +70,15 @@ nav a:hover {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-#lista-proyectos article{
-    border:2px solid var(--acento);
+#lista-proyectos article {
+    border: 2px solid var(--acento);
     padding: 20px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+#lista-proyectos article:hover {
+    transform: translateY(-6px);
+    border-color: var(--texto);
 }
 
 @media (max-width: 600px) {
