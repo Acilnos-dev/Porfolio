@@ -60,9 +60,9 @@ const observador = new IntersectionObserver(function (entradas) {
             entrada.target.classList.remove("visible");
         }
     });
-}, { threshold: 0.2 });
+}, { threshold: 0.1 });
 
 document.querySelectorAll("main section").forEach(function (seccion) {
     seccion.classList.add("revelar");
     observador.observe(seccion);
-}, { threshold: 0.1 });
+}, { threshold: 0.2 });
