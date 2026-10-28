@@ -98,3 +98,15 @@ nav a:hover {
         flex-direction: column;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .revelar {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    #lista-proyectos article:hover {
+        transform: none;
+    }
+}
